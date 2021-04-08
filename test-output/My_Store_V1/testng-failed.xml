@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [My_Store_V1]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.MyStore.Utilities.MyStore_Reporting"/>
+  </listeners>
+  <test thread-count="5" name="Ecommerce App Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.MyStore.TestCases.TC_MyStore_RemoveFromCart_009">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="Removeitemfromcart"/>
+        </methods>
+      </class> <!-- com.MyStore.TestCases.TC_MyStore_RemoveFromCart_009 -->
+    </classes>
+  </test> <!-- Ecommerce App Test(failed) -->
+</suite> <!-- Failed suite [My_Store_V1] -->

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-06T20:27:18 IST" name="My_Store_V1" finished-at="2021-04-06T20:32:25 IST" duration-ms="306332">
+    <groups>
+    </groups>
+    <test started-at="2021-04-06T20:27:18 IST" name="Ecommerce App Test" finished-at="2021-04-06T20:32:25 IST" duration-ms="306332">
+      <class name="com.MyStore.TestCases.TC_UserRegistration_001">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.MyStore.TestCases.TC_UserRegistration_001@10959ece]" started-at="2021-04-06T20:27:19 IST" name="setup" finished-at="2021-04-06T20:27:39 IST" duration-ms="19927" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CreateAnAcount()[pri:0, instance:com.MyStore.TestCases.TC_UserRegistration_001@10959ece]" started-at="2021-04-06T20:27:39 IST" name="CreateAnAcount" finished-at="2021-04-06T20:27:56 IST" duration-ms="16693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAnAcount -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.MyStore.TestCases.TC_UserRegistration_001@10959ece]" started-at="2021-04-06T20:27:56 IST" name="teardown" finished-at="2021-04-06T20:27:57 IST" duration-ms="1382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.MyStore.TestCases.TC_UserRegistration_001 -->
+      <class name="com.MyStore.TestCases.TC_MyStoreLoginTest_003">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.MyStore.TestCases.TC_MyStoreLoginTest_003@34f7cfd9]" started-at="2021-04-06T20:28:27 IST" name="setup" finished-at="2021-04-06T20:28:37 IST" duration-ms="10007" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logintest()[pri:0, instance:com.MyStore.TestCases.TC_MyStoreLoginTest_003@34f7cfd9]" started-at="2021-04-06T20:28:37 IST" name="logintest" finished-at="2021-04-06T20:28:42 IST" duration-ms="5100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.MyStore.TestCases.TC_MyStoreLoginTest_003@34f7cfd9]" started-at="2021-04-06T20:28:42 IST" name="teardown" finished-at="2021-04-06T20:28:43 IST" duration-ms="997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.MyStore.TestCases.TC_MyStoreLoginTest_003 -->
+      <class name="com.MyStore.TestCases.TC_MyStore_AddToWishlistVerification_007">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.MyStore.TestCases.TC_MyStore_AddToWishlistVerification_007@346d61be]" started-at="2021-04-06T20:30:46 IST" name="setup" finished-at="2021-04-06T20:30:56 IST" duration-ms="10683" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addtowishlistverification()[pri:0, instance:com.MyStore.TestCases.TC_MyStore_AddToWishlistVerification_007@346d61be]" started-at="2021-04-06T20:30:56 IST" name="addtowishlistverification" finished-at="2021-04-06T20:31:06 IST" duration-ms="9997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtowishlistverification -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.MyStore.TestCases.TC_MyStore_AddToWishlistVerification_007@346d61be]" started-at="2021-04-06T20:31:06 IST" name="teardown" finished-at="2021-04-06T20:31:07 IST" duration-ms="853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.MyStore.TestCases.TC_MyStore_AddToWishlistVerification_007 -->
+      <class name="com.MyStore.TestCases.TC_MyStore_RemoveFromCart_009">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.MyStore.TestCases.TC_MyStore_RemoveFromCart_009@747edf66]" started-at="2021-04-06T20:31:49 IST" name="setup" finished-at="2021-04-06T20:32:02 IST" duration-ms="12882" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Removeitemfromcart()[pri:0, instance:com.MyStore.TestCases.TC_MyStore_RemoveFromCart_009@747edf66]" started-at="2021-04-06T20:32:02 IST" name="Removeitemfromcart" finished-at="2021-04-06T20:32:22 IST" duration-ms="20331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Removeitemfromcart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.MyStore.TestCases.TC_MyStore_RemoveFromCart_009@747edf66]" started-at="2021-04-06T20:32:22 IST" name="teardown" finished-at="2021-04-06T20:32:25 IST" duration-ms="2722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.MyStore.TestCases.TC_MyStore_RemoveFromCart_009 -->
+      <class name="com.MyStore.TestCases.TC_MyStore_SearchProduct_006">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.MyStore.TestCases.TC_MyStore_SearchProduct_006@3e6ef8ad]" started-at="2021-04-06T20:30:22 IST" name="setup" finished-at="2021-04-06T20:30:32 IST" duration-ms="9602" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SearchProduct()[pri:0, instance:com.MyStore.TestCases.TC_MyStore_SearchProduct_006@3e6ef8ad]" started-at="2021-04-06T20:30:32 IST" name="SearchProduct" finished-at="2021-04-06T20:30:45 IST" duration-ms="13165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchProduct -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.MyStore.TestCases.TC_MyStore_SearchProduct_006@3e6ef8ad]" started-at="2021-04-06T20:30:45 IST" name="teardown" finished-at="2021-04-06T20:30:46 IST" duration-ms="831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.MyStore.TestCases.TC_MyStore_SearchProduct_006 -->
+      <class name="com.MyStore.TestCases.TC_EmailValidation_002">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.MyStore.TestCases.TC_EmailValidation_002@3a6bb9bf]" started-at="2021-04-06T20:27:57 IST" name="setup" finished-at="2021-04-06T20:28:18 IST" duration-ms="20510" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="emailvalidation()[pri:0, instance:com.MyStore.TestCases.TC_EmailValidation_002@3a6bb9bf]" started-at="2021-04-06T20:28:18 IST" name="emailvalidation" finished-at="2021-04-06T20:28:26 IST" duration-ms="8888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailvalidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.MyStore.TestCases.TC_EmailValidation_002@3a6bb9bf]" started-at="2021-04-06T20:28:26 IST" name="teardown" finished-at="2021-04-06T20:28:27 IST" duration-ms="896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.MyStore.TestCases.TC_EmailValidation_002 -->
+      <class name="com.MyStore.TestCases.TC_MyStore_BuyProduct_005">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.MyStore.TestCases.TC_MyStore_BuyProduct_005@59af0466]" started-at="2021-04-06T20:29:35 IST" name="setup" finished-at="2021-04-06T20:29:46 IST" duration-ms="10723" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="BuyProduct()[pri:0, instance:com.MyStore.TestCases.TC_MyStore_BuyProduct_005@59af0466]" started-at="2021-04-06T20:29:46 IST" name="BuyProduct" finished-at="2021-04-06T20:30:21 IST" duration-ms="35425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BuyProduct -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.MyStore.TestCases.TC_MyStore_BuyProduct_005@59af0466]" started-at="2021-04-06T20:30:21 IST" name="teardown" finished-at="2021-04-06T20:30:22 IST" duration-ms="800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.MyStore.TestCases.TC_MyStore_BuyProduct_005 -->
+      <class name="com.MyStore.TestCases.TC_MyStore_PriceUpdateVerification_008">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.MyStore.TestCases.TC_MyStore_PriceUpdateVerification_008@55536d9e]" started-at="2021-04-06T20:31:07 IST" name="setup" finished-at="2021-04-06T20:31:18 IST" duration-ms="11121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="priceupdatecheck()[pri:0, instance:com.MyStore.TestCases.TC_MyStore_PriceUpdateVerification_008@55536d9e]" started-at="2021-04-06T20:31:18 IST" name="priceupdatecheck" finished-at="2021-04-06T20:31:48 IST" duration-ms="29402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- priceupdatecheck -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.MyStore.TestCases.TC_MyStore_PriceUpdateVerification_008@55536d9e]" started-at="2021-04-06T20:31:48 IST" name="teardown" finished-at="2021-04-06T20:31:49 IST" duration-ms="802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.MyStore.TestCases.TC_MyStore_PriceUpdateVerification_008 -->
+      <class name="com.MyStore.TestCases.TC_Mystore_LoginDDT_004">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.MyStore.TestCases.TC_Mystore_LoginDDT_004@65f095f8]" started-at="2021-04-06T20:28:43 IST" name="setup" finished-at="2021-04-06T20:28:53 IST" duration-ms="9376" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.MyStore.TestCases.TC_Mystore_LoginDDT_004@65f095f8]" started-at="2021-04-06T20:28:57 IST" name="LoginDDT" data-provider="MyStore_LoginData" finished-at="2021-04-06T20:29:08 IST" duration-ms="11193" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[orio7896@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[434]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginDDT -->
+        <test-method signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.MyStore.TestCases.TC_Mystore_LoginDDT_004@65f095f8]" started-at="2021-04-06T20:29:08 IST" name="LoginDDT" data-provider="MyStore_LoginData" finished-at="2021-04-06T20:29:24 IST" duration-ms="15730" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[orio7896@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tamara678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginDDT -->
+        <test-method signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.MyStore.TestCases.TC_Mystore_LoginDDT_004@65f095f8]" started-at="2021-04-06T20:29:24 IST" name="LoginDDT" data-provider="MyStore_LoginData" finished-at="2021-04-06T20:29:32 IST" duration-ms="8338" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginDDT -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.MyStore.TestCases.TC_Mystore_LoginDDT_004@65f095f8]" started-at="2021-04-06T20:29:32 IST" name="teardown" finished-at="2021-04-06T20:29:35 IST" duration-ms="2856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.MyStore.TestCases.TC_Mystore_LoginDDT_004 -->
+    </test> <!-- Ecommerce App Test -->
+  </suite> <!-- My_Store_V1 -->
+</testng-results>

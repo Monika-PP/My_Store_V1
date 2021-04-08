@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="My_Store_V1">
+<listeners>
+<listener class-name="com.MyStore.Utilities.MyStore_Reporting"/>
+</listeners>
+<test name="Ecommerce App Test">
+<parameter name="browser"  value="chrome"/>
+<classes>
+<class name="com.MyStore.TestCases.TC_UserRegistration_001"/>
+<class name="com.MyStore.TestCases.TC_EmailValidation_002"/>
+<class name="com.MyStore.TestCases.TC_MyStoreLoginTest_003"/>
+<class name="com.MyStore.TestCases.TC_Mystore_LoginDDT_004"/>
+<!--<class name="com.MyStore.TestCases.TC"/>-->
+<class name="com.MyStore.TestCases.TC_MyStore_BuyProduct_005"/>
+<class name="com.MyStore.TestCases.TC_MyStore_SearchProduct_006"/>
+<class name="com.MyStore.TestCases.TC_MyStore_AddToWishlistVerification_007"/>
+<class name="com.MyStore.TestCases.TC_MyStore_PriceUpdateVerification_008"/>
+<class name="com.MyStore.TestCases.TC_MyStore_RemoveFromCart_009"/>
+</classes>
+</test>
+</suite>
